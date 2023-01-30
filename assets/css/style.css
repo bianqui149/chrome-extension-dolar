@@ -1,0 +1,13 @@
+body {
+    background: #e96443;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #57954ebb, #439ce9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #57954ebb, #439ce9);
+}
+.container-price {
+    min-width: 350px;
+}
+table.table {
+    font-size: 13px;
+}

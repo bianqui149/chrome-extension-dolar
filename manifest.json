@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Dolar Cotizaciones",
+    "description": "Plugin to get current cotizacition of USD in Argentina",
+    "version": "1.0",
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_icon": "./assets/img/dolar.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "scripting",
+        "notifications",
+        "alarms",
+        "webRequest", "webNavigation"
+    ]
+}
